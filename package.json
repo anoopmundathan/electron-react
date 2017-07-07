@@ -1,0 +1,31 @@
+{
+  "name": "electron-react",
+  "productName": "Electron React",
+  "version": "1.0.0",
+  "description": "Electron App in React",
+  "main": "main.js",
+  "scripts": {
+    "prestart": "webpack -p",
+    "start": "electron main.js",
+     "package": "build"
+  },
+  "keywords": [],
+  "author": "Anoop Mundathan <anoop.mundathan@gmail.com> (http://anoopmundathan.me/)",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "6.25.0",
+    "babel-loader": "7.1.1",
+    "babel-preset-env": "1.6.0",
+    "babel-preset-react": "6.24.1",
+    "electron": "1.6.11",
+    "electron-builder": "19.13.0",
+    "webpack": "3.1.0"
+  },
+  "dependencies": {
+    "react": "15.6.1",
+    "react-dom": "15.6.1"
+  },
+   "build": {
+    "appId": "com.Anoop.Mundathan.ElectronReact"
+  }
+}
